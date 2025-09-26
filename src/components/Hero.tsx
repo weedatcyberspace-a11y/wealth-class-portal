@@ -26,6 +26,7 @@ const Hero = () => {
           <Button 
             size="lg" 
             className="bg-gradient-primary hover:shadow-glow transition-smooth text-lg px-8 py-6"
+            onClick={() => document.getElementById('apply')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Start Learning Today
           </Button>
@@ -33,6 +34,7 @@ const Hero = () => {
             variant="outline" 
             size="lg"
             className="border-primary/50 hover:border-primary hover:bg-primary/10 transition-smooth text-lg px-8 py-6"
+            onClick={() => document.getElementById('courses')?.scrollIntoView({ behavior: 'smooth' })}
           >
             View Courses
           </Button>
