@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { MessageCircle } from "lucide-react";
 
 const Header = () => {
   return (
@@ -25,6 +26,14 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           <Button variant="ghost" className="hidden md:inline-flex">
             Login
+          </Button>
+          <Button 
+            variant="ghost" 
+            size="sm"
+            className="text-green-600 hover:text-green-700 hover:bg-green-50"
+            onClick={() => window.open('https://wa.me/254114470612', '_blank')}
+          >
+            <MessageCircle className="h-5 w-5" />
           </Button>
           <Button className="bg-gradient-primary hover:shadow-glow transition-smooth">
             Get Started
