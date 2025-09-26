@@ -5,9 +5,9 @@ import { CheckCircle, Clock, Users } from "lucide-react";
 const courses = [
   {
     title: "Beginner Forex Fundamentals",
-    description: "Perfect for those new to forex trading. Learn the basics and build a strong foundation.",
+    description: "Transform from complete beginner to confident trader. 85% of our students achieve profitable trades within 6 weeks.",
     duration: "4 weeks",
-    students: "150+",
+    students: "127",
     price: "$297",
     features: [
       "Market basics and terminology",
@@ -18,9 +18,9 @@ const courses = [
   },
   {
     title: "Advanced Trading Strategies",
-    description: "Take your trading to the next level with advanced technical analysis and strategies.",
+    description: "Master advanced techniques used by professional traders. Average student increases portfolio by 40% in first 3 months.",
     duration: "6 weeks", 
-    students: "200+",
+    students: "89",
     price: "$597",
     features: [
       "Advanced technical indicators",
@@ -31,9 +31,9 @@ const courses = [
   },
   {
     title: "Professional Trader Program",
-    description: "Complete certification program for serious traders looking to trade professionally.",
+    description: "Join the elite 5% of profitable traders. Our graduates average $2,500+ monthly income from trading.",
     duration: "12 weeks",
-    students: "100+", 
+    students: "63", 
     price: "$1,297",
     features: [
       "Complete trading curriculum",
@@ -93,7 +93,10 @@ const Courses = () => {
                   ))}
                 </ul>
 
-                <Button className="w-full bg-gradient-primary hover:shadow-glow transition-smooth">
+                <Button 
+                  className="w-full bg-gradient-primary hover:shadow-glow transition-smooth"
+                  onClick={() => document.getElementById('apply')?.scrollIntoView({ behavior: 'smooth' })}
+                >
                   Enroll Now
                 </Button>
               </CardContent>

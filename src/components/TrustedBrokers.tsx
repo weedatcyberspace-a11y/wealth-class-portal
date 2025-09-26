@@ -4,35 +4,35 @@ import { Star, Shield, Award } from "lucide-react";
 
 const brokers = [
   {
-    name: "MetaTrader Pro",
+    name: "Exness",
     rating: 4.8,
-    regulation: "FCA, CySEC", 
-    spread: "0.1 pips",
-    features: ["Zero Commission", "Advanced Platform", "24/7 Support"],
-    trusted: true
-  },
-  {
-    name: "ForexGlobal",
-    rating: 4.7,
-    regulation: "ASIC, FSA",
-    spread: "0.2 pips", 
-    features: ["Low Spreads", "Mobile Trading", "Copy Trading"],
-    trusted: true
-  },
-  {
-    name: "TradePro Markets",
-    rating: 4.9,
-    regulation: "FCA, CIMA",
-    spread: "0.0 pips",
-    features: ["ECN Account", "AI Tools", "VPS Hosting"],
-    trusted: true
-  },
-  {
-    name: "CapitalFX",
-    rating: 4.6,
-    regulation: "CySEC, DFSA", 
+    regulation: "FCA, CySEC, FSA", 
     spread: "0.3 pips",
-    features: ["Social Trading", "Education", "Bonuses"],
+    features: ["Instant Withdrawals", "MT4/MT5", "Copy Trading"],
+    trusted: true
+  },
+  {
+    name: "XM Global",
+    rating: 4.7,
+    regulation: "ASIC, CySEC, IFSC",
+    spread: "1.0 pips", 
+    features: ["No Deposit Bonus", "Educational Resources", "Multi-Asset Trading"],
+    trusted: true
+  },
+  {
+    name: "HotForex (HFM)",
+    rating: 4.6,
+    regulation: "FCA, CySEC, DFSA",
+    spread: "0.6 pips",
+    features: ["Micro Accounts", "Islamic Accounts", "Premium Trading"],
+    trusted: true
+  },
+  {
+    name: "FXTM (ForexTime)",
+    rating: 4.5,
+    regulation: "CySEC, FCA, FSCA", 
+    spread: "1.2 pips",
+    features: ["Cent Accounts", "Social Trading", "Education Center"],
     trusted: true
   }
 ];
