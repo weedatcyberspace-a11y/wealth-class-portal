@@ -8,7 +8,7 @@ const courses = [
     description: "Transform from complete beginner to confident trader. 85% of our students achieve profitable trades within 6 weeks.",
     duration: "4 weeks",
     students: "127",
-    price: "$297",
+    price: "$49",
     features: [
       "Market basics and terminology",
       "Reading charts and patterns", 
@@ -21,7 +21,7 @@ const courses = [
     description: "Master advanced techniques used by professional traders. Average student increases portfolio by 40% in first 3 months.",
     duration: "6 weeks", 
     students: "89",
-    price: "$597",
+    price: "$79",
     features: [
       "Advanced technical indicators",
       "Market psychology",
@@ -34,7 +34,7 @@ const courses = [
     description: "Join the elite 5% of profitable traders. Our graduates average $2,500+ monthly income from trading.",
     duration: "12 weeks",
     students: "63", 
-    price: "$1,297",
+    price: "$99",
     features: [
       "Complete trading curriculum",
       "Live trading sessions",

@@ -135,9 +135,9 @@ const ApplicationForm = () => {
                       <SelectValue placeholder="Select a course" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="beginner">Beginner Forex Fundamentals ($297)</SelectItem>
-                      <SelectItem value="advanced">Advanced Trading Strategies ($597)</SelectItem>
-                      <SelectItem value="professional">Professional Trader Program ($1,297)</SelectItem>
+                      <SelectItem value="beginner">Beginner Forex Fundamentals ($49)</SelectItem>
+                      <SelectItem value="advanced">Advanced Trading Strategies ($79)</SelectItem>
+                      <SelectItem value="professional">Professional Trader Program ($99)</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
